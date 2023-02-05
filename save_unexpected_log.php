@@ -8,7 +8,7 @@ $db = new DB();
 
 $data = [
     'company' => $_POST['company'],
-    'amount' => $_POST['amount'] + ' грн',
+    'amount' => $_POST['amount'] . ' грн',
     'description' => $_POST['description'],
     'user' => $_POST['user'],
     'company_id' => $_POST['company_id'],
